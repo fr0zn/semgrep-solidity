@@ -1,0 +1,30 @@
+File: semgrep-grammars/src/tree-sitter-solidity/LICENSE
+Git repo name: tree-sitter-solidity
+Latest commit in repo: 685474d7fe3b9dca0671efb41dfd52c725f27432
+Last change in file:
+  commit 890735f6ba1246c33cb833af40746ee0c036e97c
+  Author: Joran Honig <joran.honig@gmail.com>
+  Date:   Sun Aug 30 22:28:00 2020 +0200
+  
+      add license
+---
+File: semgrep-grammars/src/tree-sitter-solidity/grammar.js
+Git repo name: tree-sitter-solidity
+Latest commit in repo: 685474d7fe3b9dca0671efb41dfd52c725f27432
+Last change in file:
+  commit 84818c8f4000e82eaf485472ced7259e52d87fbe
+  Author: fr0zn <ferran.celades@hotmail.com>
+  Date:   Sat Mar 27 22:32:08 2021 +0100
+  
+      Fixing hex number
+---
+File: semgrep-grammars/src/semgrep-solidity/grammar.js
+Git repo name: ocaml-tree-sitter-semgrep
+Latest commit in repo: eb9548eaed10b3ec5bfc310c2bb55b7efb8016cb
+Last change in file:
+  commit f3eda934362798772d5cb46df9885eeec0a526b8
+  Author: fr0zn <ferran.celades@hotmail.com>
+  Date:   Fri Oct 8 11:32:50 2021 +0200
+  
+      Adding solidity support on ocaml-semgrep
+---
