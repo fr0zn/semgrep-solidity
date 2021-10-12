@@ -1,6 +1,6 @@
 File: semgrep-grammars/src/tree-sitter-solidity/LICENSE
 Git repo name: tree-sitter-solidity
-Latest commit in repo: bd9096699a0958f5518de7d367dda5bdb8bdfdfa
+Latest commit in repo: 504e77e57ca21fb349a83a17d65d80c674f468d7
 Last change in file:
   commit 890735f6ba1246c33cb833af40746ee0c036e97c
   Author: Joran Honig <joran.honig@gmail.com>
@@ -10,17 +10,17 @@ Last change in file:
 ---
 File: semgrep-grammars/src/tree-sitter-solidity/grammar.js
 Git repo name: tree-sitter-solidity
-Latest commit in repo: bd9096699a0958f5518de7d367dda5bdb8bdfdfa
+Latest commit in repo: 504e77e57ca21fb349a83a17d65d80c674f468d7
 Last change in file:
-  commit b4e9d5068e208de693a7f9369a96256b51d52198
+  commit 504e77e57ca21fb349a83a17d65d80c674f468d7
   Author: fr0zn <ferran.celades@hotmail.com>
-  Date:   Mon Oct 11 11:13:29 2021 +0200
+  Date:   Tue Oct 12 10:24:51 2021 +0200
   
-      Adding unchecked blocks
+      Uppercase identifier
 ---
 File: semgrep-grammars/src/semgrep-solidity/grammar.js
 Git repo name: ocaml-tree-sitter-semgrep
-Latest commit in repo: 1501997a6ce07bf274dfa624d6177e3263e76291
+Latest commit in repo: d89faab4d67fb71db218b60864d537831cc2c9be
 Last change in file:
   commit ef45ee3c427ac1649016908ae7eb5d21e9197110
   Author: fr0zn <ferran.celades@hotmail.com>
