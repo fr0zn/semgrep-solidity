@@ -987,11 +987,14 @@ module.exports = grammar({
                 seq("'", repeat($._single_quoted_unicode_char), "'"),
         )))),
 
+        _string_literal_fragment_double: $ => token.immediate(prec(PREC.STRING, /[^"\\\n]+|\\\r?\n/)),
+        _string_literal_fragment_single: $ => token.immediate(prec(PREC.STRING, /[^'\\\n]+|\\\r?\n/)),
+
         string: $ => choice(
             seq(
             '"',
             repeat(choice(
-                token.immediate(prec(PREC.STRING, /[^"\\\n]+|\\\r?\n/)),
+                $._string_literal_fragment_double,
                 $._escape_sequence
             )),
             '"'
@@ -999,7 +1002,7 @@ module.exports = grammar({
             seq(
             "'",
             repeat(choice(
-                token.immediate(prec(PREC.STRING, /[^'\\\n]+|\\\r?\n/)),
+                $._string_literal_fragment_single,
                 $._escape_sequence
             )),
             "'"
